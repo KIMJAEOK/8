@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {margin: 0; padding: 0;}
+ul,li {margin: 0; padding: 0; list-style: none;}
+a {text-decoration: none; color: #222328;}
+body {background: #fff;}
+
+#wrap {width: 1000px; margin: 0;}
+
+header {width: 200px; height: 650px; float: left;}
+header .logo {width: 200px; height: 100px;}
+header .logo img {margin-top: 30px;}
+header .logo img:hover {opacity: 0.7;}
+header .menu {width: 200px; height: 550px;}
+header .menu nav>ul>li>a {display: block; margin-left: 10px; width: 180px; height: 50px; line-height: 50px; text-align: center; background: rgb(212, 68, 205); color: #fff; font-weight: bold;}
+header .menu nav>ul>li>a:hover {background: rgb(94, 93, 93);}
+header .menu nav .submenu {display: none;}
+header .menu nav .submenu a {display: block; margin-left: 10px; text-align: center; width: 180px; height: 40px; line-height: 40px; background: rgb(209, 132, 205); color: #fff;}
+header .menu nav .submenu a:hover {background: rgb(94, 93, 93);}
+#center {width: 800px; height: 650px; float: left;}
+#center .slide {position: relative; width: 800px; height: 350px; overflow: hidden;}
+#center .slide .slideList {position: absolute; top: 0; left: 0;}
+#center .slide .slideList img {display: block;}
+#center .con {width: 800px; height: 200px;}
+#center .con div {float: left;}
+#center .con .con1 {width: 267px; height: 200px;}
+#center .con .con1 h2 {margin: 10px 0; font-size: 18px;}
+#center .con .con1 ul li {height: 25px; line-height: 1.8; border-bottom: 1px dotted #ccc;}
+#center .con .con1 ul li a {font-size: 11px;}
+#center .con .con1 ul li a:hover {color: red;}
+#center .con .con1 ul li span {font-size: 11px; float: right; margin-right: 3px; color: #222328; margin-top: 3px;}
+#center .con .con2 {width: 266px; height: 200px;}
+#center .con .con2 h2 {margin: 10px 5px; font-size: 18px;}
+#center .con .con2 ul {display: flex; justify-content: space-evenly;}
+#center .con .con2 img:hover {opacity: 0.7;}
+#center .con .con3 {width: 267px; height: 200px;}
+#center .con .con3 img:hover {opacity: 0.7;}
+#center footer {width: 800px; height: 100px; border-top: 1px solid #999;}
+#center footer .copyright {width: 600px; height: 100px; float: left;}
+#center footer .copyright p {text-align: center; font-size: 14px; margin-top: 30px; line-height: 1.7;}
+#center footer .rr {width: 200px; height: 100px; float: left;}
+#center footer .rr .sns {height: 50px;}
+#center footer .rr .sns ul {display: flex; justify-content: space-evenly; margin-top: 10px;}
+#center footer .rr .sns ul li img {width: 30px; height: 30px;}
+#center footer .rr .sns ul li img:hover {opacity: 0.7;}
+#center footer .rr .family {height: 50px;}
+#center footer .rr .family select {float: right; width: 120px; margin-right: 25px;}
+#popup {position: absolute; width: 400px; height: 300px; border: 3px solid rgb(212, 68, 205); top: 300px; left: 50%; transform: translate(-50%,-50%); z-index: 999; background: #f2f2f2; box-shadow: 0 0 10px; display: none;}
+#popup h3 {width: 400px; height: 50px; line-height: 50px; text-align: center; font-size: 22px; background: rgb(212, 68, 205); color: #fff;}
+#popup .close {position: absolute; right: 10px; bottom: 10px; background: red; color: #fff; font-size: 14px; padding: 2px 4px; border-radius: 5px; cursor: pointer;}
+#popup p {margin: 20px; font-weight: bold; font-size: 20px; color: #222328;}
+#popup .text a {position: absolute; margin: 20px; text-decoration: underline; font-weight: bold;}
